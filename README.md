@@ -1,0 +1,1 @@
+# webpack-resolve-library-plugin
