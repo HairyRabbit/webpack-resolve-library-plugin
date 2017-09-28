@@ -1,0 +1,57 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "dll vendor": 0,
+      "node_modules/bootstrap/dist/js/npm.js": 1,
+      "node_modules/bootstrap/js/transition.js": 2,
+      "node_modules/bootstrap/js/alert.js": 3,
+      "node_modules/bootstrap/js/button.js": 4,
+      "node_modules/bootstrap/js/carousel.js": 5,
+      "node_modules/bootstrap/js/collapse.js": 6,
+      "node_modules/bootstrap/js/dropdown.js": 7,
+      "node_modules/bootstrap/js/modal.js": 8,
+      "node_modules/bootstrap/js/tooltip.js": 9,
+      "node_modules/bootstrap/js/popover.js": 10,
+      "node_modules/bootstrap/js/scrollspy.js": 11,
+      "node_modules/bootstrap/js/tab.js": 12,
+      "node_modules/bootstrap/js/affix.js": 13,
+      "node_modules/jquery/dist/jquery.js": 14,
+      "../../../node_modules/style-loader/index.js!../../../node_modules/css-loader/index.js!node_modules/normalize.css/normalize.css": 15,
+      "../../../node_modules/css-loader/index.js!node_modules/normalize.css/normalize.css": 16,
+      "../../../node_modules/css-loader/lib/css-base.js": 17,
+      "../../../node_modules/style-loader/lib/addStyles.js": 18,
+      "../../../node_modules/style-loader/lib/urls.js": 19
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19
+    }
+  },
+  "chunks": {
+    "byName": {
+      "vendor": 0
+    },
+    "byBlocks": {},
+    "usedIds": {
+      "0": 0
+    }
+  }
+}
