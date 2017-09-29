@@ -1,4 +1,4 @@
 import 'normalize.css'
 import $ from 'jquery'
 import 'bootstrap'
-export default 42
+export default $

@@ -5,7 +5,7 @@ const LibraryPlugin = require(path.resolve('.', 'dist/webpack-resolve-library-pl
 
 console.log(__dirname)
 
-module.exports = {
+module.exports = LibraryPlugin({
   entry: path.resolve(__dirname, './foo.js'),
   output: {
     filename: '[name].js',
@@ -14,22 +14,22 @@ module.exports = {
   module: {
     rules: [
       { test: /\.css$/, use: [
-	'style-loader',
-	'css-loader'
+	      'style-loader',
+	      'css-loader'
       ] },
       { test: /\.(jpg|png|gif|ttf|eot|woff|woff2)$/, use: 'url-loader' }
     ]
   },
+  library: {
+    base: __dirname
+  },
   plugins: [    
-    new LibraryPlugin({
-      base: __dirname
-    }),
     new HTMLWebpackPlugin()
   ],
   devServer: {
     // contentBase: [path.resolve(__dirname, '.dll-cache')],
     before: (app, ctx) => {
-      console.log(ctx)
+      // console.log(ctx)
     }
   }
-}
+})
