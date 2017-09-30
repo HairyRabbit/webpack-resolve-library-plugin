@@ -4,10 +4,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const LibraryPlugin = require(path.resolve('.', 'dist/webpack-resolve-library-plugin.js'))
 
 module.exports = LibraryPlugin({
-  entry: [
-    path.resolve(__dirname, 'package.json'),
-    path.resolve(__dirname, './foo.js')
-  ],
+  entry: path.resolve(__dirname, './foo.js'),
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname)

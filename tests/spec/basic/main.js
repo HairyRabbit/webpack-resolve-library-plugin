@@ -81,7 +81,7 @@ module.exports = __webpack_require__(3);
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = {"name":"test","dependencies":{"bootstrap":"^3.3.7","jquery":"^3.2.1","normalize.css":"^7.0.0"},"version":"1.0.0","main":"index.js","foo":41,"license":"MIT"}
+module.exports = {"name":"test","dependencies":{"bootstrap":"^3.3.7","jquery":"^3.2.1","normalize.css":"^7.0.0"},"version":"1.0.0","main":"index.js","foo":42,"license":"MIT"}
 
 /***/ }),
 /* 3 */
