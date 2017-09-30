@@ -7,5 +7,6 @@
     },
     "version": "1.0.0",
     "main": "index.js",
+    "foo": 41,
     "license": "MIT"
 }
