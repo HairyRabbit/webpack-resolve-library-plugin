@@ -3,8 +3,6 @@ const webpack = require('webpack')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const LibraryPlugin = require(path.resolve('.', 'dist/webpack-resolve-library-plugin.js'))
 
-console.log(__dirname)
-
 module.exports = LibraryPlugin({
   entry: path.resolve(__dirname, './foo.js'),
   output: {
@@ -25,11 +23,5 @@ module.exports = LibraryPlugin({
   },
   plugins: [    
     new HTMLWebpackPlugin()
-  ],
-  devServer: {
-    // contentBase: [path.resolve(__dirname, '.dll-cache')],
-    before: (app, ctx) => {
-      // console.log(ctx)
-    }
-  }
+  ]
 })
